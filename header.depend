@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1550408943 source:c:\users\henri\documents\nth\datametoder\codeblock\datametoder\menu.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<unistd.h>
+
+1550856825 source:c:\users\henri\documents\nth\datametoder\codeblock\datametoder\stabilitytest.c
+

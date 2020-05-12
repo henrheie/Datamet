@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Datametoder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Datametoder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Datametoder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Datametoder.cbp" />
+		<Unit filename="Datametoder.depend" />
+		<Unit filename="Datametoder.layout" />
+		<Unit filename="NavierStokes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bcvel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bcvel2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bcvel3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bcvel4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="calculateUVP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="calculate_lift_drag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="calvel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header.depend" />
+		<Unit filename="header.h" />
+		<Unit filename="header.layout" />
+		<Unit filename="interpolate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="makevtf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="piter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pointpressure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="printres.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stabilitytest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="streamfunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="write_Res.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="write_header.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="write_step.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
